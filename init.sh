@@ -47,7 +47,7 @@ functions:
   getFunction:
     handler: getFunction.handler' > serverless.yml
 
-
+cd ..
 ./aws_cred.sh
 
 serverless deploy
